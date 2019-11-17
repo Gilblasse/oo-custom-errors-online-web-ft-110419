@@ -9,13 +9,15 @@ class Person
     self.partner = person
     if person.class != Person
       begin
-      raise 
-      rescue 
-      
+        raise 
+        rescue 
+      end
     else
       person.partner = self
     end
   end
+
+  class 
 
 end
 
